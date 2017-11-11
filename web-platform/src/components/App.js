@@ -9,12 +9,13 @@ import React, { Component } from 'react';
 
 // Components
 import Home from './Home';
+import Dashboard from './Dashboard';
 
 class App extends Component {
 
   render() {
     return (
-      <Home />
+      <Dashboard />
     )
   }
 };
